@@ -13,6 +13,7 @@ It is part of the [keemlab](https://github.com/kimnahyun57/keemlab) experimental
 
 
 
+
 ### ⚙️ Architecture
 
 1. **User-defined Questions**  
@@ -32,6 +33,7 @@ It is part of the [keemlab](https://github.com/kimnahyun57/keemlab) experimental
 
 
 
+
 ### 📁 Files
 
 | File | Description |
@@ -44,6 +46,7 @@ It is part of the [keemlab](https://github.com/kimnahyun57/keemlab) experimental
 
 
 
+
 ### 🧪 Development Environment
 
 - OS: macOS (Apple Silicon)
@@ -51,6 +54,7 @@ It is part of the [keemlab](https://github.com/kimnahyun57/keemlab) experimental
 - Virtualenv: `coretrace-env`
 - Editor: VS Code
 - Git: GitHub + terminal + GitHub Web UI
+
 
 
 
@@ -70,6 +74,7 @@ It is part of the [keemlab](https://github.com/kimnahyun57/keemlab) experimental
 | File Sync | Notion DB appears empty after `200 OK` response | Filter/view issue in Notion UI | Manually checked URL or updated view filters |
 | JSON | `Prompt is not a property that exists.` | Payload used wrong field names | Matched keys to actual DB schema; removed `Prompt` and used `Name` |
 | Execution | `No module named 'dotenv'` (later planned) | Optional config loading feature | Install with: `pip install python-dotenv` if needed |
+
 
 
 
