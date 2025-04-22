@@ -12,6 +12,7 @@ This project implements an automated pipeline that:
 It is part of the [keemlab](https://github.com/kimnahyun57/keemlab) experimental repository.
 
 
+
 ### ⚙️ Architecture
 
 1. **User-defined Questions**  
@@ -28,6 +29,7 @@ It is part of the [keemlab](https://github.com/kimnahyun57/keemlab) experimental
 
 5. **자동 기록**  
    → Notion DB에 한 줄씩 자동 추가됨 (질문 & 응답 로그)
+
 
 
 ### 📁 Files
@@ -68,6 +70,7 @@ It is part of the [keemlab](https://github.com/kimnahyun57/keemlab) experimental
 | File Sync | Notion DB appears empty after `200 OK` response | Filter/view issue in Notion UI | Manually checked URL or updated view filters |
 | JSON | `Prompt is not a property that exists.` | Payload used wrong field names | Matched keys to actual DB schema; removed `Prompt` and used `Name` |
 | Execution | `No module named 'dotenv'` (later planned) | Optional config loading feature | Install with: `pip install python-dotenv` if needed |
+
 
 
 ### 💡 Future Improvements
