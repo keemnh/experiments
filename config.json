@@ -1,0 +1,30 @@
+{
+  "parent": {
+    "database_id": "YOUR_DATABASE_ID"   
+  },
+  "properties": {
+    "Name": {
+      "title": [
+        {
+          "text": {
+            "content": "Prompt example"
+          }
+        }
+      ]
+    },
+    "Response": {
+      "rich_text": [
+        {
+          "text": {
+            "content": "Response example"
+          }
+        }
+      ]
+    },
+    "Timestamp": {
+      "date": {
+        "start": "2025-04-22T18:33:58.184729"
+      }
+    }
+  }
+}
