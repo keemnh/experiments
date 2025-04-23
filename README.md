@@ -1,4 +1,4 @@
-# keemlab
+# experiments
 Logging lightweight experiments and exploratory implementations.
 
 ## Current Experiments
