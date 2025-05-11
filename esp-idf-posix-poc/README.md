@@ -6,25 +6,28 @@ ESP-IDF 기반 FreeRTOS PoC를 보드 없이 macOS/Linux POSIX 환경에서 시�
 ---
 
 ## 📂 폴더 구조
+```  
 esp-idf-posix-poc/
 ├── README.md
 ├── env-setup/
-│   ├── install_idf.sh      # IDF 설치 스크립트
-│   └── export_idf.sh       # 환경변수 설정 스크립트
+│   ├── install_idf.sh
+│   └── export_idf.sh
 ├── hello_world/
-│   ├── hello_log.txt       # “hello_world” 시뮬 실행 로그 예시
-│   ├── analyze_log.py      # 로그 자동 분석 스크립트
-│   └── sdkconfig.example   # 예제용 기본 sdkconfig
+│   ├── hello_log.txt
+│   ├── analyze_log.py
+│   └── sdkconfig.example
 ├── queue_demo/
-│   ├── CMakeLists.txt      # 프로젝트 루트 CMake 설정
+│   ├── CMakeLists.txt
 │   └── main/
-│       ├── queue_demo.c    # Producer/Consumer 예제 코드
-│       └── CMakeLists.txt  # main 컴포넌트 등록
+│       ├── queue_demo.c
+│       └── CMakeLists.txt
 └── generic_gpio-demo/
-├── main/
-│   ├── gpio_example_main.c   # 내장 GPIO 토글 예제
-│   └── CMakeLists.txt        # main 컴포넌트 등록
-└── README.md                 # 이 예제 빌드·실행 설명
+    ├── CMakeLists.txt
+    ├── README.md
+    └── main/
+        ├── gpio_example_main.c
+        └── CMakeLists.txt
+```  
 
 ---
 
