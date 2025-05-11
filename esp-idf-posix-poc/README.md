@@ -49,15 +49,55 @@ esp-idf-posix-poc/
 
 
 ## 🔧 파일 설명
-- install_idf.sh / export_idf.sh
-ESP-IDF 설치와 환경변수(export) 스크립트
-- hello_log.txt
-hello_world 예제 실행 결과 로그
-- analyze_log.py
-hello_log.txt에서 “Restarting in N seconds…” 카운트다운을 파싱해 개수와 값 리스트 출력
-- sdkconfig.example
-idf.py menuconfig 후 기본 설정을 기록한 예제 파일
-- queue_demo
-FreeRTOS Queue(Producer/Consumer) 예제 코드와 빌드 설정
+
+- **env-setup/install_idf.sh**  
+  ESP-IDF 설치 스크립트 (홈브루 설치 → 레포 클론 → `install.sh` 실행)
+
+- **env-setup/export_idf.sh**  
+  환경변수 설정 스크립트 (`export.sh` 를 실행해서 `IDF_PATH` 등 등록)
+
+- **hello_world/hello_log.txt**  
+  `hello_world` 예제 POSIX 시뮬레이션 실행 결과 로그
+
+- **hello_world/analyze_log.py**  
+  `hello_log.txt`에서 “Restarting in N seconds…” 카운트다운 메시지를 파싱해  
+  - 메시지 개수  
+  - 카운트다운 값 목록  
+  출력하는 파이썬 분석 스크립트
+
+- **hello_world/sdkconfig.example**  
+  `idf.py menuconfig` 후 생성된 `sdkconfig` 파일을 복사해 둔  
+  “샘플 빌드 설정” 템플릿 파일
+
+- **queue_demo/CMakeLists.txt**  
+  `queue_demo` 프로젝트 루트 CMake 보일러플레이트
+
+- **queue_demo/main/queue_demo.c**  
+  FreeRTOS Queue Producer/Consumer 예제 코드  
+  - `xQueueCreate(5, sizeof(int))`  
+  - producer 태스크(0~9 숫자 전송)  
+  - consumer 태스크(숫자 수신)  
+
+- **queue_demo/main/CMakeLists.txt**  
+  `queue_demo` 메인 컴포넌트 등록 설정 (`freertos`, `log` 의존)
+
+- **generic_gpio-demo/CMakeLists.txt**  
+  `generic_gpio-demo` 프로젝트 루트 CMake 보일러플레이트
+
+- **generic_gpio-demo/README.md**  
+  GPIO 예제 빌드·실행 방법 요약 (POSIX 시뮬레이션)
+
+- **generic_gpio-demo/main/gpio_example_main.c**  
+  ESP-IDF 내장 GPIO 토글(LED blink) 예제 코드  
+  - `gpio_reset_pin`  
+  - `gpio_set_direction`  
+  - `gpio_set_level`  
+  - FreeRTOS 태스크에서 500ms 주기 토글
+
+- **generic_gpio-demo/main/CMakeLists.txt**  
+  GPIO 예제 메인 컴포넌트 등록 설정 (`driver` 의존)
+
+- **README.md** (루트 및 `esp-idf-posix-poc/README.md`)  
+  전체 프로젝트 개요, 폴더 구조, 빠른 시작 가이드 등 빌드 설정
 - generic_gpio-demo
 ESP-IDF 내장 GPIO 깜빡이 예제 복원본과 빌드 설정
