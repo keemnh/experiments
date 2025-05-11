@@ -28,7 +28,6 @@ esp-idf-posix-poc/
 │       └── queue_demo.c
 └── README.md
 ```
----
 
 ## 🚀 빠른 시작
 
