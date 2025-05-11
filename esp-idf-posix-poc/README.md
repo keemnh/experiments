@@ -56,10 +56,10 @@ esp-idf-posix-poc/
 
 4. **GPIO 예제 복원 & 실행**
      ```bash
-cd ../generic_gpio-demo
-idf.py --preview set-target linux
-idf.py --preview build
-./build/generic_gpio.elf
+	cd ../generic_gpio-demo
+	idf.py --preview set-target linux
+	idf.py --preview build
+	./build/generic_gpio.elf
 
 ## 🔧 파일 설명
 
