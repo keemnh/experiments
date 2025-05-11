@@ -54,6 +54,13 @@ esp-idf-posix-poc/
    idf.py --preview build
    ./build/queue_demo.elf
 
+4. **GPIO 예제 복원 & 실행**
+     ```bash
+cd ../generic_gpio-demo
+idf.py --preview set-target linux
+idf.py --preview build
+./build/generic_gpio.elf
+
 ## 🔧 파일 설명
 
 - **env-setup/install_idf.sh**  
