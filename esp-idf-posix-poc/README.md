@@ -99,5 +99,5 @@ esp-idf-posix-poc/
 
 - **README.md** (루트 및 `esp-idf-posix-poc/README.md`)  
   전체 프로젝트 개요, 폴더 구조, 빠른 시작 가이드 등 빌드 설정
-- generic_gpio-demo
-ESP-IDF 내장 GPIO 깜빡이 예제 복원본과 빌드 설정
+- **generic_gpio-demo**
+  ESP-IDF 내장 GPIO 깜빡이 예제 복원본과 빌드 설정
