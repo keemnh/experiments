@@ -14,20 +14,19 @@ esp-idf-posix-poc/
 ├── generic_gpio-demo/
 │   ├── main/
 │   │   ├── CMakeLists.txt
-│   │   ├── gpio_example_main.c
-│   │   └── CMakeLists.txt
+│   │   └── gpio_example_main.c
+│   ├── CMakeLists.txt
 │   └── README.md
 ├── hello_world/
 │   ├── analyze_log.py
 │   ├── hello_log.txt
 │   └── sdkconfig.example
 ├── queue_demo/
+│   ├── CMakeLists.txt
 │   └── main/
 │       ├── CMakeLists.txt
-│       ├── queue_demo.c
-│       └── CMakeLists.txt
+│       └── queue_demo.c
 └── README.md
-```  
 
 ---
 
