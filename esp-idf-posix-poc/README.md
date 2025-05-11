@@ -27,7 +27,7 @@ esp-idf-posix-poc/
 │       ├── CMakeLists.txt
 │       └── queue_demo.c
 └── README.md
-
+```
 ---
 
 ## 🚀 빠른 시작
