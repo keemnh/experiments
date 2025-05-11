@@ -47,6 +47,12 @@ esp-idf-posix-poc/
 	./build/hello_world.elf > hello_log.txt
 	python3 analyze_log.py
 
+3. **Queue 데모 실행**  
+   ```bash
+   cd ../queue_demo
+   idf.py --preview set-target linux
+   idf.py --preview build
+   ./build/queue_demo.elf
 
 ## 🔧 파일 설명
 
