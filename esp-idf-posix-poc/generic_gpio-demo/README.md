@@ -13,6 +13,3 @@ cd ~/git/experiments/esp-idf-posix-poc/generic_gpio-demo
 idf.py --preview set-target linux
 idf.py --preview build
 ./build/generic_gpio.elf
-
-	•	터미널에 LED ON / LED OFF 메시지가 0.5초 간격으로 반복 출력되면 성공
-	•	Ctrl+C 로 종료
