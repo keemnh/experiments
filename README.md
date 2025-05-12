@@ -1,8 +1,8 @@
-# experiments
+# 🌱 experiments
 Logging lightweight experiments and exploratory implementations.
 
 
-### 📁Current Experiments
+### Current Experiments
 - `gpt-notion-autologger`  
   Automation experiment that logs and summarizes ChatGPT interactions (prompts, responses, timestamps) into a Notion database.
 
