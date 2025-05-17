@@ -1,0 +1,30 @@
+name: "Hall Toggle Test"
+version: 1
+author: "keem"
+
+steps:
+  - delay: 500ms
+  - set-control:
+      part-id: esp
+      control: "gpio-write"
+      pin: D4
+      value: 0
+  - delay: 1000ms
+  - set-control:
+      part-id: esp
+      control: "gpio-write"
+      pin: D4
+      value: 1
+  - delay: 1000ms
+  - set-control:
+      part-id: esp
+      control: "gpio-write"
+      pin: D4
+      value: 0
+  - delay: 1000ms
+  - set-control:
+      part-id: esp
+      control: "gpio-write"
+      pin: D4
+      value: 1
+  - delay: 1000ms

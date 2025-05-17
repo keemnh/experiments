@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "editor": "wokwi",
+  "parts": [
+    { "id": "esp", "type": "wokwi-esp32-devkit-v1" }
+  ],
+  "connections": [
+    ["esp:TX", "$serialMonitor:RX"],
+    ["esp:RX", "$serialMonitor:TX"]
+  ],
+  "serialMonitor": {
+    "display":  "always",
+    "baudRate": 115200,
+    "newline":  "lf"
+  }
+}

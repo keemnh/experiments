@@ -1,0 +1,8 @@
+[
+  { "timeMs": 500,  "pin": "D4", "value": 0 },
+  { "timeMs": 1500, "pin": "D4", "value": 1 },
+  { "timeMs": 2500, "pin": "D4", "value": 0 },
+  { "timeMs": 3500, "pin": "D4", "value": 1 },
+  { "timeMs": 4500, "pin": "D4", "value": 0 },
+  { "timeMs": 5500, "pin": "D4", "value": 1 }
+]

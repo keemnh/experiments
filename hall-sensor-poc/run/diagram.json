@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "editor": "wokwi",
+  "parts": [
+    { "id": "esp", "type": "board-esp32-devkit-c-v4" }
+  ],
+  "serialMonitor": {
+    "display":  "always",
+    "baudRate": 115200,
+    "newline":  "lf"
+  }
+}

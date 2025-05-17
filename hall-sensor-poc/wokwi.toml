@@ -1,0 +1,7 @@
+# Wokwi Configuration File
+# Reference: https://docs.wokwi.com/vscode/project-config
+[wokwi]
+version = 1
+firmware = 'build/hall_test.bin'
+elf = 'build/hall_test.elf'
+gdbServerPort = 3333

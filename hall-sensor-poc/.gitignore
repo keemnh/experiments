@@ -1,0 +1,19 @@
+# ESP-IDF 빌드 산출물
+/build/
+/sdkconfig
+/cmake_build/
+
+# Python 산출물
+*.pyc
+__pycache__/
+
+# 로그나 CSV
+*.log
+hall_states.csv
+
+# IDE 설정
+.vscode/
+.idea/
+
+# OS 잔여 파일
+.DS_Store
